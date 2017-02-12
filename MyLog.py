@@ -10,5 +10,14 @@ def main():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
+    from argparse import ArgumentParser
+
+    parser = ArgumentParser(description='Log Utility')
+    # get optional(NOT REQUIRED) log level default-WARNING
+    parser.add_argument('-ll', '--loglevel',
+                        type=str,
+                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
+                        help='Set the logging level')
+    args = parser.parse_args()
+    logging.basicConfig(level=args.loglevel)
     main()
