@@ -1,4 +1,6 @@
 import logging
+from LogConsumer import consume_log
+
 logger = logging.getLogger()
 
 def main():
@@ -7,7 +9,7 @@ def main():
     logger.warning('This is a warning message.')
     logger.info('This is an informative message.')
     logger.debug('This is a low-level debug message.')
-
+    consume_log()
 
 if __name__ == '__main__':
     from argparse import ArgumentParser
@@ -19,5 +21,7 @@ if __name__ == '__main__':
                         choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
                         help='Set the logging level')
     args = parser.parse_args()
-    logging.basicConfig(level=args.loglevel)
+    logging.basicConfig(filename='example.log',
+                        format='%(asctime)s %(message)s',
+                        level=args.loglevel)
     main()
