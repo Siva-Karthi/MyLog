@@ -1,0 +1,57 @@
+
+CRITICAL 2017-02-12 20:49:49,681   MyLog.py             main         This is a critical message.                                4595
+ERROR    2017-02-12 20:49:49,682   MyLog.py             main         This is an error message                                4595
+WARNING  2017-02-12 20:49:49,682   MyLog.py             main         This is a warning message.                                4595
+INFO     2017-02-12 20:49:49,682   MyLog.py             main         This is an informative message.                                4595
+DEBUG    2017-02-12 20:49:49,682   MyLog.py             main         This is a low-level debug message                                4595
+ERROR    2017-02-12 20:49:49,683   LogConsumer.py       consume_log  I ran. here do you know???                                4595
+ERROR    2017-02-12 20:49:49,683   LogConsumerChild.py  child        Could not do this operation by child                                4595
+CRITICAL 2017-02-12 20:50:27,914   MyLog.py             main         This is a critical message. 4612
+ERROR    2017-02-12 20:50:27,915   MyLog.py             main         This is an error message 4612
+WARNING  2017-02-12 20:50:27,915   MyLog.py             main         This is a warning message. 4612
+INFO     2017-02-12 20:50:27,915   MyLog.py             main         This is an informative message. 4612
+DEBUG    2017-02-12 20:50:27,915   MyLog.py             main         This is a low-level debug message 4612
+ERROR    2017-02-12 20:50:27,915   LogConsumer.py       consume_log  I ran. here do you know??? 4612
+ERROR    2017-02-12 20:50:27,916   LogConsumerChild.py  child        Could not do this operation by child 4612
+CRITICAL 2017-02-12 20:50:50,584   MyLog.py             main         This is a critical message. 4622
+ERROR    2017-02-12 20:50:50,585   MyLog.py             main         This is an error message 4622
+WARNING  2017-02-12 20:50:50,585   MyLog.py             main         This is a warning message. 4622
+INFO     2017-02-12 20:50:50,586   MyLog.py             main         This is an informative message. 4622
+DEBUG    2017-02-12 20:50:50,586   MyLog.py             main         This is a low-level debug message 4622
+ERROR    2017-02-12 20:50:50,586   LogConsumer.py       consume_log  I ran. here do you know??? 4622
+ERROR    2017-02-12 20:50:50,586   LogConsumerChild.py  child        Could not do this operation by child 4622
+CRITICAL 2017-02-12 20:51:04,611   MyLog.py             main         This is a critical message. 4638
+ERROR    2017-02-12 20:51:04,612   MyLog.py             main         This is an error message  4638
+WARNING  2017-02-12 20:51:04,612   MyLog.py             main         This is a warning message. 4638
+INFO     2017-02-12 20:51:04,612   MyLog.py             main         This is an informative message. 4638
+DEBUG    2017-02-12 20:51:04,613   MyLog.py             main         This is a low-level debug message 4638
+ERROR    2017-02-12 20:51:04,613   LogConsumer.py       consume_log  I ran. here do you know??? 4638
+ERROR    2017-02-12 20:51:04,613   LogConsumerChild.py  child        Could not do this operation by child 4638
+CRITICAL 2017-02-12 20:51:11,738   MyLog.py             main         This is a critical message. 4647
+ERROR    2017-02-12 20:51:11,739   MyLog.py             main         This is an error message  4647
+WARNING  2017-02-12 20:51:11,739   MyLog.py             main         This is a warning message. 4647
+INFO     2017-02-12 20:51:11,739   MyLog.py             main         This is an informative message. 4647
+DEBUG    2017-02-12 20:51:11,739   MyLog.py             main         This is a low-level debug message 4647
+ERROR    2017-02-12 20:51:11,739   LogConsumer.py       consume_log  I ran. here do you know??? 4647
+ERROR    2017-02-12 20:51:11,740   LogConsumerChild.py  child        Could not do this operation by child 4647
+CRITICAL 2017-02-12 20:51:24,239   MyLog.py             main         This is a critical message.    4662
+ERROR    2017-02-12 20:51:24,239   MyLog.py             main         This is an error message       4662
+WARNING  2017-02-12 20:51:24,239   MyLog.py             main         This is a warning message.     4662
+INFO     2017-02-12 20:51:24,240   MyLog.py             main         This is an informative message. 4662
+DEBUG    2017-02-12 20:51:24,240   MyLog.py             main         This is a low-level debug message 4662
+ERROR    2017-02-12 20:51:24,240   LogConsumer.py       consume_log  I ran. here do you know???     4662
+ERROR    2017-02-12 20:51:24,240   LogConsumerChild.py  child        Could not do this operation by child 4662
+CRITICAL 2017-02-12 20:51:34,778   MyLog.py             main         This is a critical message.         4677
+ERROR    2017-02-12 20:51:34,779   MyLog.py             main         This is an error message            4677
+WARNING  2017-02-12 20:51:34,779   MyLog.py             main         This is a warning message.          4677
+INFO     2017-02-12 20:51:34,780   MyLog.py             main         This is an informative message.     4677
+DEBUG    2017-02-12 20:51:34,780   MyLog.py             main         This is a low-level debug message   4677
+ERROR    2017-02-12 20:51:34,780   LogConsumer.py       consume_log  I ran. here do you know???          4677
+ERROR    2017-02-12 20:51:34,780   LogConsumerChild.py  child        Could not do this operation by child 4677
+CRITICAL 2017-02-12 20:51:45,011   MyLog.py             main         This is a critical message.              4691
+ERROR    2017-02-12 20:51:45,012   MyLog.py             main         This is an error message                 4691
+WARNING  2017-02-12 20:51:45,012   MyLog.py             main         This is a warning message.               4691
+INFO     2017-02-12 20:51:45,013   MyLog.py             main         This is an informative message.          4691
+DEBUG    2017-02-12 20:51:45,013   MyLog.py             main         This is a low-level debug message        4691
+ERROR    2017-02-12 20:51:45,013   LogConsumer.py       consume_log  I ran. here do you know???               4691
+ERROR    2017-02-12 20:51:45,013   LogConsumerChild.py  child        Could not do this operation by child     4691
